@@ -1,1 +1,32 @@
-{}
+
+
+{
+	"keys":[
+		{
+			"kty":"RSA",
+			"e":"AQAB",
+			"use":"sig",
+			"kid":"f81dc691-fb6c-42fc-9ac9-bc534aaa2c97",
+			"alg":"RS256",
+			"n":"pj8TIqmNR6lDqLntIXtgA0NeGFs8tr9ZxhRPzwUa-dbjby746IVbpAjs9YA3s7UskJfA2eJI74Ifivrzu2xy2aujQi7cjhWt_z5s0ucVpE3b1p8vR2KS-Wr-UTilrpuBc7Ifk5W4b0-q5h5hyEMSdvW4hEz0_x8BgYqDMfyUAr5YkbILkvCM6snwfhiqWb461c7jwZXsXfpjF6aXvO_6-O4qqRY351kg1aECL_52IPaQixgRruDnyc5n_-GcGmbJOdNqhmAskYts071vqsZTM97lmIikzUD_iLM6maSUrWhIsxbbKX-7OZaZ84RRQM3t8nYkPnRuYZhK-Ht6iin2RQ"
+		},
+		{
+			"kty":"EC",
+			"use":"sig",
+			"crv":"P-256",
+			"kid":"d8e2fb31-d46e-4a5b-8f1f-f765bc00941b",
+			"x":"4SUpiHAAh_D8nbSXhScE_LE6xcNAs2iXKbwjj0Tn_yM",
+			"y":"kqdl6bC_uf0HbBj0Dvo6OR7t5-XIO7Cf1H2JbtK2iFM",
+			"alg":"ES256"
+		},
+		{
+			"kty":"EC",
+			"use":"enc",
+			"crv":"P-256",
+			"kid":"9a007e54-0bc7-46b8-8072-d6d7a9dc525c",
+			"x":"-Oy-YBQmcu8Y71TlYhpMc9SgeYSryh1HuLgUgbGd8y4",
+			"y":"a3KRvyNbEBL0qYiwgtu-F0vVQ5VZAENyh9kLjVzX4SY",
+			"alg":"ECDH-ES+A256KW"
+		}
+	]
+}
